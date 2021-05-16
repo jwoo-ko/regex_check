@@ -1,0 +1,6 @@
+Check for file "ZPB003130_0_20200401_file1.txt": 0.01 seconds.
+----RESULT----
+No.2, (delete) "장애등급판정기준|능력장해측정기준" if exists (장해분류표): Failed.
+No.2, (insert) "능력장애측정기준" if exists (장해분류표): Failed.
+----------------
+

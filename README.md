@@ -41,13 +41,13 @@
 
 + convert_pdf_to_txt(pdf_path, txt_path)
 
- : pdf_path의 pdf 파일을 txt 파일로 추출하여 동일한 파일명으로 txt_path에 저장
+   : pdf_path의 pdf 파일을 txt 파일로 추출하여 동일한 파일명으로 txt_path에 저장
 
 
 
 + regex_txt(pattern, txt_path, regex_path)
 
- : txt_path의 txt파일 별 pattern에 해당하는 부분을 삭제 후 동일한 파일명으로 regex_path에 저장
+   : txt_path의 txt파일 별 pattern에 해당하는 부분을 삭제 후 동일한 파일명으로 regex_path에 저장
 
 
 ### 2-2. regex_check
@@ -56,23 +56,23 @@
 
 + Checklist(checklist_path)
 
- : checklist_path의 checklist.txt 파일을 읽어 체크리스트 생성
+   : checklist_path의 checklist.txt 파일을 읽어 체크리스트 생성
 
 + Checklist.reset()
 
- : 체크리스트 검색 결과를 초기화
+   : 체크리스트 검색 결과를 초기화
 
 + Checklist.check(search_line)
 
- : 체크리스트에 따라 search_line 검수
+   : 체크리스트에 따라 search_line 검수
 
 + Checklist.update()
 
- : TEXT의 모든 line 검수 후 실행하여 결과를 체크리스트에 업데이트
+   : TEXT의 모든 line 검수 후 실행하여 결과를 체크리스트에 업데이트
 
 + Checklist.errorlog()
 
- : 체크리스트 업데이트 후 오류 내역을 문자열로 반환
+   : 체크리스트 업데이트 후 오류 내역을 문자열로 반환
  
 ### 2-3. checklist.txt 예시
 
@@ -82,7 +82,7 @@
 | -- | ---- | --------------- | --------------- |
 | 1 | delete | 감염병의병원체를확인할수있는기관	| 특정법감염병진단비 |
 | 1 | insert | 감염병병원체확인기관	| 특정법감염병진단비 |
-| 2 | delete | 장애등급판정기준|능력장해측정기준 | 장해분류표 |
+| 2 | delete | 장애등급판정기준\|능력장해측정기준 | 장해분류표 |
 | 2 | insert | 장애정도판정기준	| 장해분류표 |
 | 2 | insert | 능력장애측정기준	| 장해분류표 |
 
